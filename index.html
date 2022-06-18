@@ -1,105 +1,198 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>科科快餐點餐價格表</title>
-    <!--答案1-->
-    <style>
-        h1 {
-            font-size: 36px;
-            font-weight: bolder;
-            color: blue;
-            text-align: center;
-        }
-        
-        table {
-            margin: auto;
-        }
-        
-        #tableCaption {
-            border-style: dashed;
-            border-width: 1px;
-        }
-        
-        td {
-            border-style: dotted;
-            border-width: 1px;
-            padding: 10px;
-            color: green;
-        }
-        /* //答案 2D*/
-        
-        .content {
-            color: green;
-            font-family: Arial;
-            font-size: 18px;
-        }
-        
-        #tableTitle {
-            font-weight: bolder;
-            font-size: 18px;
-            color: purple;
-            text-align: center
-        }
-    </style>
-    <script>
-    </script>
-</head>
-
-<body>
-    <h1>MIS快餐點餐價格表</h1>
-    <table class="content">
-        <tr>
-            <td id="tableCaption"></td>
-            <td id="tableTitle">5號餐<br>8元</td>
-            <td id="tableTitle">4號餐<br>11元</td>
-            <td id="tableTitle">3號餐<br>14元</td>
-            <td id="tableTitle">2號餐<br>17元</td>
-            <td id="tableTitle">1號餐<br>20元</td>
-        </tr>
-        <tr>
-            <td id="tableTitle">3</td>
-            <td>3*8=24</td>
-            <td>3*11=33</td>
-            <td>3*14=42</td>
-            <td>3*17=51</td>
-            <td>3*20=60</td>
-        </tr>
-        <tr>
-            <td id="tableTitle">4</td>
-            <td>4*8=32</td>
-            <td>4*11=44</td>
-            <td>4*14=56</td>
-            <td>4*17=68</td>
-            <td>4*20=80</td>
-        </tr>
-        <tr>
-            <td id="tableTitle">5</td>
-            <td>5*8=40</td>
-            <td>5*11=55</td>
-            <td>5*14=70</td>
-            <td>5*17=85</td>
-            <td>5*20=100</td>
-        </tr>
-        <tr>
-            <td id="tableTitle">6</td>
-            <td>6*8=48</td>
-            <td>6*11=66</td>
-            <td>6*14=84</td>
-            <td>6*17=102</td>
-            <td>6*20=120</td>
-        </tr>
-        <tr>
-            <td id="tableTitle">7</td>
-            <td>7*8=56</td>
-            <td>7*11=77</td>
-            <td>7*14=98</td>
-            <td>7*17=119</td>
-            <td>7*20=140</td>
-        </tr>
-    </table>
-</body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B11056053</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <script>
+		  function playAudio() {
+			  const audio = document.createElement("audio");
+			  audio.src = "music/wow.mp3";
+　				audio.play();
+		  	}
+			</script>
+			<button onclick="playAudio();">汪汪&nbsp;</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dog1.html">哈士奇&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dog2.html">柴犬&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dog3.html">吉娃娃&nbsp;</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
+      </div>
+    </nav>
+    <section>
+      <div class="jumbotron text-center mt-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1>歡迎來到狗狗百科</h1>
+              <p>犬（學名：Canis lupus familiaris），現代俗稱為狗，一種常見的犬科哺乳動物，與狼為同一種動物，生物學分類上是狼的一個亞種。狗是人類最早馴養的一個物種。有人飼養的稱為家犬，無人飼養的狗稱常被稱為「野狗」或「流浪狗」，可能對環境與其他生物造成影響，是世界百大外來入侵種之一。狗的壽命最多可超過二十年，平均則為十數年，與貓的平均壽命相近。若無發生意外，平均壽命以小型犬為長。</p>
+              <p><a class="btn btn-primary btn-lg" href="https://zh.wikipedia.org/wiki/%E7%8A%AC" target="_blank" role="button">點選我前往維基百科 »</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>以下會大致介紹目前常見的狗狗</h1>
+            <p>這邊會大略介紹台灣狗、哈士奇與柴犬，可能沒辦法介紹得太清楚，如有錯誤請見諒</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-3" src="images/35X35.gif" alt="照片">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">台灣狗</h5>
+                  台灣犬，又稱臺灣土犬、福爾摩莎犬、高沙犬。台灣犬並非台灣原生種動物，為台灣培育的家犬品系。最早起源自臺灣高海拔地區原住民飼養的獵犬，是南亞狩獵犬的後代。牠們非常適應台灣崎嶇不平的地形，現在大多作為狩獵犬、護衛犬、特技犬、搜救犬、或者是陪伴犬。
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">哈士奇</h5>
+                  哈士奇是北方地區雪橇型狗的總稱，他們的快速拉動的風格與其他雪橇犬不同。 他們是由速度最快的雪橇犬不斷交配的品種。相比之下，阿拉斯加雪橇犬是「最大和最有力的」雪橇犬，常被用於較重的承載。
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">柴犬</h5>
+                  柴犬（日語：柴犬／しばいぬ，學名：Canis lupus familiaris，英文：Shiba Inu），日本犬種之一。屬於中小型犬種。柴犬於1936年（昭和11年）12月16日被指定為日本的天然紀念物（指定了六種日本犬種的其中一個），亦是現存六種日本犬中其中一種小型犬。根據日本犬保存會，日本境內飼養的日本本土犬種裡，約有八成為柴犬。
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>照片欣賞OWO</h2>
+            <p>來觀看這些可愛狗狗的照片八OWO</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-12 text-center">
+            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/1542px-Huskiesatrest.jpg" alt="">
+            <h4>這張圖片是哈士奇在雪地裡當雪橇犬的照片</h4>
+            <h6>這邊推薦一部電影給各位( 多哥)，這部電影講述一位傳奇的雪橇犬</h6>
+          </div>
+          <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Shiba_inu_taiki.jpg/220px-Shiba_inu_taiki.jpg" alt="">
+            <h4>這是一隻很可愛い的柴犬</h4>
+            <h6>現在台灣人也很愛柴犬呢</h6>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/1.jpg" alt=""></div>
+          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/2.jpg" alt=""></div>
+          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/3.jpg" alt=""></div>
+          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/4.jpg" alt=""></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/5.jpg" alt=""></div>
+          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/6.jpeg" alt=""></div>
+          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/7.jpg" alt=""></div>
+          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/8.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>聲明</h1>
+            <p>我本人雖然沒有養過狗，但是我高中老師養了一群狗(大概10隻以上)，也跟這些可愛得狗狗互動過，總感覺很不現實，應為我小時候被狗追過，在記憶裡留下了一到傷痕 ，但長到後看到這些狗狗也慢慢轉變了心態。</p>
+            <p>在此向各位飼主建議，養了寵物就不要拋棄牠，他們的生命很短暫，希望你們能帶給他美好的一生。&nbsp;</p>
+            <p>圖片持有者並非我 如有侵犯作非常抱歉 請通知我我會下架&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">寵物醫院</h3>
+            <p>屏東科技大學有獸醫醫院喔 名子叫做：國立屏東科技大學獸醫教學醫院</p>
+            <p>國立屏東科技大學獸醫教學醫院溯自日治時期本校前身屏東農業學校之家畜病院，當時診治對象以馬為主，故又稱馬病舍，主要為畜產科學生實習場所，未對外接診。1945年改稱家畜診療所，1950年改建並更名家畜醫院開始對外接診。1969年，家畜醫院於屏東農業專科學校北校區新建二層鋼筋水泥大樓，有內、外科診療室、X光室、手術室，教室及實驗室。1986年遷校內埔，1987年新建動物醫療院所，於1988年完工並更名動物醫院。2017年特更名為獸醫教學醫院。&nbsp;</p>
+          </div>
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">聯繫方式</h3>
+            <address class="text-center">
+              <strong>網址https://vmth.npust.edu.tw/&nbsp;</strong><br>
+            電話:087740270
+          </address>
+          </div>
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">位置&nbsp;</h3>
+            <form>
+              <div class="form-group col-12">
+                <p>國立屏東科技大學獸醫教學醫院  地址是:
+			    屏東縣內埔鄉學府路１號</p>
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7364.587516556808!2d120.59888097265444!3d22.642833530278597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e3cb46fe7cda5%3A0x4b3c32fd0b64dbbe!2z5ZyL56uL5bGP5p2x56eR5oqA5aSn5a2454246Yar5pWZ5a246Yar6Zmi!5e0!3m2!1szh-TW!2stw!4v1655436106242!5m2!1szh-TW!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>狗狗股份有限公司製作&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
 </html>
